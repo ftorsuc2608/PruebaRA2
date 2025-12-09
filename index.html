@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TODO: Cambia el título por algo relacionado con tu temática -->
+  <title>Museo del videojuego</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CABECERA GLOBAL DEL SITIO -->
+  <header class="site-header">
+    <!-- TODO: Cambia el título por algo relacionado con tu temática -->
+    <h1>Museo del videojuego</h1>
+
+    <!-- TODO: Menú superior con enlaces a secciones de la misma página -->
+    <nav class="main-nav">
+       <ul>
+        <li>
+            <a href="#hero">Nuestra misión</a>
+        </li>
+        <li>
+            <a href="#galery">Plataformas más relevantes</a>
+        </li>
+        <li>
+            <a href="#evol">Evolución de los videojuegos</a>
+        </li>
+        <li>
+            <a href="#extra">Salón de la fama</a>
+        </li>
+        <li>
+            <a href="#form">Sugerencias</a>
+        </li>
+        <li>
+            <a href="#contact">Contacto</a>
+        </li>
+     </ul>  
+    </nav>
+  </header>
+
+  <!-- BOTÓN HAMBURGUESA FIJO PARA EL MENÚ LATERAL -->
+  <button class="open-menu" aria-label="Abrir menú lateral">☰</button>
+
+  <!-- MENÚ LATERAL DESLIZANTE -->
+  <nav id="sideMenu" class="side-menu">
+     <ul>
+        <li>
+            <a href="#hero">Nuestra misión</a>
+        </li>
+        <li>
+            <a href="#galery">Plataformas más relevantes</a>
+        </li>
+        <li>
+            <a href="#evol">Evolución de los videojuegos</a>
+        </li>
+        <li>
+            <a href="#extra">Salón de la fama</a>
+        </li>
+        <li>
+            <a href="#form">Sugerencias</a>
+        </li>
+        <li>
+            <a href="#contact">Contacto</a>
+        </li>
+     </ul>  
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- SECCIÓN HERO -->
+    <section id="hero">
+      <!-- TODO: Crear una sección destacada (texto + imagen) -->
+      <h2>Nuestra misión</h2>
+      <p>En nuestra plataforma creemos que los videojuegos son parte esencial de la memoria cultural moderna. </p>
+      <p>Nuestra misión es preservar los grandes títulos que marcaron generaciones, rescatando aquellas joyas que definieron épocas y que trazaron el camino de la evolución del medio.</p> 
+      <p>Nos dedicamos a conservar, documentar y difundir obras emblemáticas para que nuevos jugadores puedan descubrirlas y para que quienes crecieron con ellas puedan revivir su legado. Queremos asegurar que la historia del videojuego permanezca viva, accesible y valorada, celebrando tanto su impacto artístico como su importancia en la construcción de la industria actual.</p>
+      <!-- TODO: Añadir imagen relacionada -->
+       <img id="misionimg" src="img/salon.jpg" alt="Salón del Museo del Videojuego">
+    </section>
+
+    <!-- SECCIÓN GALERÍA -->
+    <section id="galery">
+      <h2>Plataformas más relevantes</h2>
+      <p>En esta sección encontrarás una selección de las plataformas de videojuegos más influyentes de la historia, aquellas que marcaron hitos técnicos, culturales y creativos en la evolución del medio. Desde consolas clásicas hasta sistemas que revolucionaron la forma de jugar, cada enlace te llevará a información detallada sobre su legado, características y el papel que desempeñaron en distintas generaciones. Explora este recorrido por el hardware que dio vida a grandes títulos y ayudó a definir la identidad del videojuego tal como lo conocemos hoy.</p>
+      <!-- TODO: Usar CSS (preferiblemente Flex/Grid) para organizar las imágenes -->
+      <!-- Mínimo 6 imágenes -->
+       <div id="frame">
+          <figure>
+            <a href="img/arcade.jpg" target="_blank"><img src="img/arcade.jpg" alt="Máquinas Arcade"></a>
+          </figure>
+          <figure>
+            <a href="img/nes.jpg" target="_blank"><img src="img/nes.jpg" alt="Nintendo Entertainment System"></a>
+          </figure>
+          <figure>
+            <a href="img/n64.jpg" target="_blank"><img src="img/n64.jpg" alt="Nintendo 64"></a>
+          </figure>
+          <figure>
+            <a href="img/ps1.jpg" target="_blank"><img src="img/ps1.jpg" alt="Play Station"></a>
+          </figure>
+          <figure>
+            <a href="img/xbox.jpg" target="_blank"><img src="img/xbox.jpg" alt="XBox"></a>
+          </figure>
+          <figure>
+            <a href="img/pc.jpg" target="_blank"><img src="img/pc.jpg" alt="PC"></a>
+          </figure>
+          <figure>
+            <a href="img/wii.jpg" target="_blank"><img src="img/wii.jpg" alt="Wii"></a>
+          </figure>
+          <figure>
+            <a href="img/metaquest.jpg" target="_blank"><img src="img/metaquest.jpg" alt="Meta Quest"></a>
+          </figure>
+       </div>
+    </section>
+
+    <!-- SECCIÓN TABLA -->
+    <section id="evol">
+      <h2>Evolución de los videojuegos</h2>
+      <!-- TODO: Crear una tabla coherente con tu temática -->
+      <!-- Ejemplo: clasificación, precios, comparativa, etc. -->
+       <p>A continuación presentamos una tabla con algunos juegos clásicos cuya conservación consideramos esencial. Cada uno de ellos representa un momento clave en la evolución del medio y continúa influyendo en la industria actual.</p>
+       <table>
+        <thead>
+          <tr>
+            <th>
+                Título
+            </th>
+            <th>
+                Año de lanzamiento
+            </th>
+            <th>
+                Plataforma original
+            </th>
+            <th>
+                Aporte a la evolución del género
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+                Pac-Man
+            </td>
+            <td>
+                1980
+            </td>
+            <td>
+                Arcade
+            </td>
+            <td>
+                Popularizó los maze games y definió la cultura arcade
+            </td>
+          </tr>
+          <tr>
+            <td>
+                The Legend of Zelda
+            </td>
+            <td>
+                1986
+            </td>
+            <td>
+                NES
+            </td>
+            <td>
+                Introdujo la exploración no lineal y sentó las bases del action-adventure
+            </td>
+          </tr>
+          <tr>
+            <td>
+                Super Mario 64
+            </td>
+            <td>
+                1996
+            </td>
+            <td>
+                Nintendo 64
+            </td>
+            <td>
+                Revolucionó el diseño en 3D y estableció estándares para los juegos de plataformas modernos
+            </td>
+          </tr>
+          <tr>
+            <td>
+                Final Fantasy VII
+            </td>
+            <td>
+                1997
+            </td>
+            <td>
+                PlayStation
+            </td>
+            <td>
+                Impulsó la narrativa cinematográfica en los JRPG y expandió su popularidad mundial
+            </td>
+          </tr>
+          <tr>
+            <td>
+                Half-Life
+            </td>
+            <td>
+                1998
+            </td>
+            <td>
+                PC
+            </td>
+            <td>
+                Integró la narrativa en la jugabilidad sin cinemáticas tradicionales, cambiando el FPS para siempre
+            </td>
+          </tr>
+          <tr>
+            <td>
+                The Elder Scrolls V: Skyrim
+            </td>
+            <td>
+                2011
+            </td>
+            <td>
+                PC / PlayStation 3 / Xbox 360
+            </td>
+            <td>
+                Redefinió el mundo abierto moderno con libertad total, gran escala y un ecosistema dinámico
+            </td>
+          </tr>
+        </tbody>
+       </table>
+    </section>
+
+    
+
+    <!-- OTRAS SECCIONES QUE QUIERAS -->
+    <!-- Por ejemplo: Sobre mí, Servicios, Noticias, etc. -->
+    <!-- SECCIÓN ADICIONAL-->
+    <section id="extra">
+      <h2>Salón de la fama</h2>
+      <div>
+        <img src="img/pacman.jpg" class="caratula">
+        <h3>Pac-Man</h3>
+        <p>Pac-Man se convirtió en un fenómeno cultural desde el momento de su lanzamiento. En una época dominada por shooters espaciales como Space Invaders y Asteroids, este título ofreció una propuesta completamente distinta: un juego de laberintos en el que el jugador debía evitar enemigos y recolectar objetos. Su diseño accesible, colores vibrantes y mecánicas claras lo hicieron atractivo para una audiencia mucho más amplia que la habitual del momento, incluyendo a mujeres, algo poco común en los arcades de la época.</p>
+        <p>Además de su impacto comercial, Pac-Man definió el subgénero de los “maze games”, creando estándares de diseño que influirían en el desarrollo de futuros títulos. También introdujo elementos novedosos, como los patrones de IA de los fantasmas, que presentaban comportamientos diferenciados y calculados. Con el tiempo, su iconografía se volvió universal, convirtiéndose en uno de los rostros más reconocibles de la cultura pop.</p>
+      </div>
+      <div>
+        <img src="img/zelda.jpg" class="caratula">
+        <h3>The Legend of Zelda</h3>
+        <p>The Legend of Zelda cambió la forma de concebir las aventuras interactivas al apostar por un mundo abierto y exploración no lineal. En un momento en que la mayoría de los juegos se basaban en niveles lineales, Zelda permitió al jugador moverse libremente, descubrir secretos y progresar a su propio ritmo. Esta libertad fue revolucionaria y sentó las bases de un estilo de diseño que décadas después continuaría evolucionando.</p>
+        <p>También marcó un antes y un después en la narrativa ambiental y el uso de la memoria de respaldo para guardar partidas, una característica casi inexistente en la época. La sensación de aventura, combinada con puzles inteligentes y una estructura semiótica muy cuidada, hizo que Zelda se convirtiera en un referente del género action-adventure. Su influencia se extiende hasta la actualidad, inspirando todo tipo de juegos de mundo abierto y experiencias centradas en la exploración.</p>
+      </div>
+      <div>
+        <img src="img/sm64.jpg" class="caratula">
+        <h3>Super Mario 64</h3>
+        <p>Super Mario 64 fue un punto de inflexión en la historia del videojuego al definir cómo debían funcionar los títulos en 3D. Mientras muchos desarrolladores estaban experimentando con la transición a entornos tridimensionales, Nintendo logró crear un control preciso y una cámara casi perfecta para la época, algo fundamental para que la plataforma 3D resultara intuitiva. La libertad de movimiento, la exploración abierta de Peach’s Castle y la variedad de misiones marcaron un nuevo estándar.</p>
+        <p>Su influencia no se limitó solo a los juegos de plataformas. Super Mario 64 demostró que los mundos 3D podían ser coherentes, interactivos y llenos de secretos por descubrir, lo que inspiró a desarrolladores de múltiples géneros. De hecho, muchos conceptos que debutaron en este juego —como los hubs centrales, los niveles no lineales y los objetivos múltiples por escenario— todavía se usan ampliamente en el diseño de videojuegos modernos.</p>
+      </div>
+      <div>
+        <img src="img/ffvii.jpg" class="caratula">
+        <h3>Final Fantasy VII</h3>
+        <p>Final Fantasy VII llevó a los JRPG a una nueva dimensión al apostar por una narrativa cinematográfica sin precedentes para la época. Gracias al uso de gráficos 3D, escenas prerenderizadas y una historia madura, el juego logró captar la atención de un público global que antes no estaba familiarizado con este tipo de experiencias. Su protagonista, Cloud, y los temas que aborda el juego siguen siendo referencias constantes dentro del género.</p>
+        <p>El título no solo aumentó la popularidad de los JRPG en Occidente, sino que también consolidó a PlayStation como una plataforma clave para juegos de rol. Su música, dirección artística y estructura narrativa influyeron en incontables desarrolladores y demostraron que los videojuegos podían ser un medio para contar historias profundas y emocionalmente complejas. Hasta hoy es considerado uno de los pilares del género.</p>
+      </div>
+      <div>
+        <img src="img/halflife.jpg" class="caratula">
+        <h3>Half-Life</h3>
+        <p>Half-Life redefinió el género de disparos en primera persona al integrar la narrativa directamente en la jugabilidad. En lugar de recurrir a cinemáticas tradicionales, el juego contaba su historia de forma continua mientras el jugador mantenía el control, creando una inmersión nunca antes vista. Esta filosofía de diseño influyó profundamente en títulos posteriores, que comenzaron a adoptar la narrativa ambiental y la progresión sin interrupciones.</p>
+        <p>Además, Half-Life destacó por su excelente ritmo, diseño de niveles y realismo en la interacción con el entorno. El motor GoldSrc y su comunidad de mods también impulsaron la creación de experiencias innovadoras, incluyendo Counter-Strike, que nació como un mod del propio juego. Su impacto continúa siendo palpable en los FPS modernos, especialmente en aquellos que priorizan la inmersión narrativa.</p>
+      </div>
+      <div>
+        <img src="img/skyrim.jpg" class="caratula">
+        <h3>The Elder Scrolls V: Skyrim</h3>
+        <p>Skyrim estableció un nuevo estándar para el diseño de mundos abiertos al ofrecer un mapa masivo lleno de actividades, historias y libertad absoluta. La posibilidad de recorrer cualquier camino, unirse a múltiples facciones y crear un personaje completamente personalizado contribuyó a su éxito masivo. Su mundo vivo, apoyado por una simulación sistémica, permitió que cada jugador viviera una experiencia distinta.</p>
+        <p>Asimismo, el juego se convirtió en un fenómeno cultural gracias a su longevidad y a la inmensa comunidad de mods que continúa expandiéndolo hasta el día de hoy. Su influencia es evidente en numerosos RPG y títulos de mundo abierto que buscan replicar su sensación de libertad y escala. Skyrim no solo consolidó a la saga The Elder Scrolls como un referente, sino que redefinió el género en su conjunto.</p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN FORMULARIO -->
+    <section id="form">
+      <h2>Sugerencias</h2>
+      <!-- TODO: Crear un formulario con al menos 3 campos y un botón de envío -->
+       <p>
+          Si conoces un videojuego que consideres importante para la historia, la cultura o la evolución del medio, puedes proponerlo para su inclusión en nuestro museo. Completa la información solicitada y nuestro equipo evaluará tu recomendación para incorporarla a nuestra colección digital. Tu aporte nos ayuda a mantener un archivo vivo y representativo de la diversidad del mundo del videojuego.
+          <form action="mailto:ftorsuc2608@g.educaand.es" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:<br> <input type="text" id="nombre" name="nombre" required></label><br>
+            <label for="email">Email:<br> <input type="email" id="email" name="email" required></label><br>
+            <label for="telefono">Teléfono:<br> <input type="tel" id="telefono" name="telefono"></label><br>
+            <label for="juego">Videojuego sugerido:<br> <input type="text" id="juego" name="juego" required></label><br>
+            <label for="motivo">¿Porqué crees que debe añadirse este juego al museo?<br><textarea id="motivo" name="motivo" required></textarea></label><br>
+            <input id="enviar" type="submit" value="Enviar Formulario">
+          </form>
+       </p>
+    </section>
+
+    <!-- SECCIÓN CONTACTO / CIERRE -->
+    <section id="contact">
+      <h2>Contacto</h2>
+      <!-- TODO: Texto, datos de contacto ficticios, redes, etc. -->
+       <p>
+        <ul>
+          <li>
+              Museo del videojuego
+          </li>
+          <li>
+              C/ Alfajor nº32, Cádiz, Cádiz, España
+          </li>
+          <li>
+              Teléfono: +34 684 95 84 75
+          </li>
+          <li>
+            Instagram: @Museodelvideojuego
+          </li>
+        </ul>
+       </p>
+      
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+   <a href="#hero">Volver al principio</a> — &copy; 2025 — 1º DAM, IES Saladillo — Federico Miguel Torrecillas Such
+    
+  </footer>
+
+  <!-- JavaScript mínimo para abrir/cerrar el menú lateral -->
+  <script>
+    const sideMenu = document.getElementById("sideMenu");
+    const toggleBtn = document.querySelector(".open-menu");
+
+    toggleBtn.addEventListener("click", () => {
+      sideMenu.classList.toggle("active");
+      toggleBtn.classList.toggle("active");
+
+      toggleBtn.textContent =
+        sideMenu.classList.contains("active") ? "✖" : "☰";
+    });
+  </script>
+
+</body>
+</html>

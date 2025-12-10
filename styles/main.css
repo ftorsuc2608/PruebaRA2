@@ -48,15 +48,6 @@ main {
   color:white;
 }
 
-.site-header h1 {
-  /* TODO: Estilo del título (tamaño, margen, etc.) */
-
-}
-
-.main-nav h1 {
-  
-}
-
 .main-nav ul {
   list-style: none;
   display: flex;
@@ -90,11 +81,6 @@ main {
   /* TODO: Colores, borde, padding, etc. */
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-/* Efecto visual cuando el menú está abierto */
-.open-menu.active {
-  /* TODO: Cambia color de fondo, rota un poco el icono, etc. */
 }
 
 /* ===== MENÚ LATERAL DESLIZANTE ===== */
